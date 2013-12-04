@@ -1,7 +1,7 @@
 
 development:
   adapter: postgresql
-  database: dev_artificiallysmart
+  database: artificiallysmart
   username: railsdev # replace this with your own user name
   password: test # replace this with your own password
   host: localhost
@@ -19,11 +19,5 @@ test:
   password: test # replace this with your own password
   host: localhost
   encoding: UTF8
-  pool: 5
-  timeout: 5000
-
-production:
-  adapter: sqlite3
-  database: db/production.sqlite3
   pool: 5
   timeout: 5000
